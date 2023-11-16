@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*================= Common Css =====================*/
+
+/*================ Header Section Start ===============*/
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #f1f1f1;
+
+}
+
+#header .container .header_row{
+   
+    display: flex;
+}
+
+.header_row .left_col_head{
+    width: 50%;
+    height: 80px;
+    
+}
+
+.header_row .right_col_head{
+    width: 50%;
+    height: 80px;
+   
+}
+
+.header_icon{
+    margin-left: 20px;
+   margin-top: 20px;
+}
+
+.header_icon h2{
+    font-size: 30px;
+    font-size: 600;
+    color: #010101;
+}
+.header_icon h2 span{
+    color: #ff002b;
+}
+ 
+
+.right_col_head ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 80px;
+
+}
+
+
+.right_col_head ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #010101;
+}
+
+.right_col_head ul li a:hover{
+    color: #ff002b;
+}
+/*================ Header Section End ===============*/
+
+/*================ Header Section Start ===============*/
+
+#hello{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.hello_row{
+    display: flex;
+}
+
+.hello_left_col{
+    width: 50%;
+}
+.hello_right_col{
+    width: 50%;
+}
+
+.hello_text{
+    padding-top: 80px;
+}
+
+.hello_left_col .hello_text p{
+    width: 400px;
+}
+
+.hello_left_col .hello_text h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+    text-transform: uppercase;
+    
+}
+
+.hello_left_col .hello_text h2{
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #ff002b;
+    text-transform: uppercase;
+    
+}
+
+.hello_left_col .hello_text p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+
+.hello_left_col .hello_text button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #ff002b;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hello_right_col .hello_image img{
+    width: 300px;
+    height: 340px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/*================ Header Section End ===============*/
+
+/*================ About Section Start ===============*/
+
+#about{
+    width: 100%;
+    height: 400px;
+}
+
+.about_row{
+    display: flex;
+}
+
+.about_left_col{
+    width: 50%;
+}
+
+.about_text{
+    padding-top: 80px;
+}
+
+.about_left_col .about_text p{
+    width: 400px;
+}
+
+
+.about_right_col .about_text h2{
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #ff002b;
+    text-transform: uppercase;
+    
+}
+
+.about_right_col .about_text p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+
+.about_right_col .about_text button{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-color: #ff002b;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.about_left_col .about_pic img{
+    width: 300px;
+    height: 340px;
+    margin-top: 40px;
+    margin-right: 120px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/*================ About Section End ===============*/
+
+/*================ Projects Section Start ===============*/
+#projects{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(239, 242, 247);
+}
+
+.projects_row{
+    padding-top: 80px;
+}
+.projects_row .project_heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.projects_row .project_heading h2 span{
+    color: #ff002b;
+}
+
+/* .first_img{
+    display: block;
+    justify-content: center;
+} */
+.first_img img{
+    width: 280px;
+    height: 340px;
+    margin-top: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.projects_img{
+    width: 350px;
+    height: 450px;
+    background-color: #ffffff;
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    /*padding-left: 30px;
+    */text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+.first_img h3{
+    padding-top: 10px;
+}
+
+.main_photo{
+    display: flex;
+    justify-content: space-between;
+}
+/*================ Projects Section End ===============*/
+
+/*================ Footer Section Start ===============*/
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(61, 96, 116) ;
+}
+
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.footer_row .footer_info h2{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.footer_row .footer_info h2 span{
+    color: #ff002b;
+}
+
+.footer_row .footer_info h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.footer_row .footer_info p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+
+.footer_row .footer_img img{
+    width: 300px;
+    height: 200px;
+}
+
+.footer_menu ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.footer_menu ul li a:hover{
+    color: #ff002b;
+}
+/*================ Footer Section End ===============*/
